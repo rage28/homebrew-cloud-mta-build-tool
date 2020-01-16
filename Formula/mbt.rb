@@ -1,5 +1,3 @@
-require 'formula'
-
 class Mbt < Formula
   homepage 'https://github.com/SAP/cloud-mta-build-tool'
   version '1.0.7'
@@ -12,7 +10,7 @@ class Mbt < Formula
     sha256 '6feb60a67973134afeb3b320e9c06d925ea076972def0a8aa6d201f4e7d24847'
   end
 
-  depends_on :arch => :x86_64
+  #depends_on :arch => :x86_64
 
   def install
     bin.install 'mbt'
