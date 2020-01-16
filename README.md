@@ -1,4 +1,4 @@
-# Homebrew Tap with Cloud MTA Build Tool 
+# Homebrew Tap for the Cloud MTA Build Tool 
 
 Tap for [Homebrew](https://brew.sh) containing the [Cloud MTA Build Tool](https://sap.github.io/cloud-mta-build-tool).
 
