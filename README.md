@@ -15,3 +15,9 @@ Then the `mbt` can be installed:
 ```sh
 brew install ccfenner/cloud-mta-build-tool/mbt
 ```
+
+Now you can use `mbt` from the command line:
+
+```sh
+mbt --version
+```
