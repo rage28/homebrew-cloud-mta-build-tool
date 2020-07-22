@@ -1,7 +1,7 @@
 class Mbt < Formula
   desc "Multi-Target Application (MTA) build tool for Cloud Applications"
   homepage "https://github.com/SAP/cloud-mta-build-tool"
-  version '1.0.8'
+  version '1.0.15'
 
   if OS.mac?
     url "https://github.com/SAP/cloud-mta-build-tool/releases/download/v#{version}/cloud-mta-build-tool_#{version}_Darwin_amd64.tar.gz"
