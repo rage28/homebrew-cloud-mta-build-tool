@@ -5,10 +5,10 @@ class Mbt < Formula
 
   if OS.mac?
     url "https://github.com/SAP/cloud-mta-build-tool/releases/download/v#{version}/cloud-mta-build-tool_#{version}_Darwin_amd64.tar.gz"
-    sha256 'c802b006546e9821d092493b5e0e7040469d852e41da9096d4afea9baddeba22'
+    sha256 'd13256fa09a4e12b4d17ead49a79883d96a8542825e9268adf7b587bd2889ae9'
   elsif OS.linux?
     url "https://github.com/SAP/cloud-mta-build-tool/releases/download/v#{version}/cloud-mta-build-tool_#{version}_Linux_amd64.tar.gz"
-    sha256 'b852d8884bd21b1b505b95b6d28ecbd3668e136d07f852a7efd76c9ab371756f'
+    sha256 'c316f50c7d6e70f6ec59cfa6aa0363caa1220fc7d4c92a34187047e93c444791'
   end
 
   def install
